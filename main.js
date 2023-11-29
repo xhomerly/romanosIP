@@ -12,7 +12,6 @@ function showIframes() {
         let iframe = document.createElement("iframe");
         iframe.src = "https://ipinfo.io/" + ipAddresses[i];
         iframeArea.appendChild(iframe);
-        console.log("tvorim" + i);
     }
     textArea.value = '';
     ipAddresses = [];
