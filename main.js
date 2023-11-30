@@ -10,7 +10,7 @@ function showIframes() {
     const numOfIPs = ipAddresses.length;
     for(let i = 0; i < numOfIPs; i++) {
         let iframe = document.createElement("iframe");
-        iframe.src = "https://ipinfo.io/" + ipAddresses[i];
+        iframe.src = "https://www.whois.com/whois/" + ipAddresses[i];
         iframeArea.appendChild(iframe);
     }
     textArea.value = '';
